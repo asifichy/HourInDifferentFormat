@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main()
+{
+    int min, hour, totalMin;
+
+    printf("Enter hour: ");
+    scanf("%d", &hour);
+
+    printf("Enter min: ");
+    scanf("%d", &min);
+
+    totalMin = min+(hour*60);
+
+    printf("The running time of the movie in minutes (Output 1): %d minutes\n", totalMin);
+    printf("The running time of the movie in hours (Output 2: %d.%d hours\n", hour, min);
+
+    return 0;
+}
